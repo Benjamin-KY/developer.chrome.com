@@ -16,7 +16,7 @@ updated: 2022-02-14
 Check this page often to learn about changes to the Chrome extensions platform, its documentation,
 and related policy or other changes.
 
-### Chrome 100: `i18n.getMessage()` support in extension service workers {: #m100-i18n-getmessage }
+### Chrome 100: i18n.getMessage() support in extension service workers {: #m100-i18n-getmessage }
 
 January 27, 2022
 
@@ -32,7 +32,7 @@ related to a matching frame, including frames with `about:`, `data:`, `blob:`, a
 URLs.  See the [content scripts](/docs/extensions/mv3/content_scripts/#injecting-in-related-frames)
 documentation for details.
 
-### Chrome 99: Extension service worker support for `file:` schemes in Canary {: #canary-file-access }
+### Chrome 99: Extension service worker support for file: schemes in Canary {: #canary-file-access }
 
 December 30, 2021
 
@@ -141,7 +141,7 @@ September 23, 2021
 The Manifest V2 to V3 transition timeline was [announced in this blog post](/blog/mv2-transition/) and
 a more detailed [timeline page](/docs/extensions/mv3/mv2-sunset) was published.
 
-### Chrome 96: `declarativeNetRequestWithHostAccess` permission
+### Chrome 96: declarativeNetRequestWithHostAccess permission
 
 September 20, 2021
 
@@ -240,7 +240,7 @@ manifest:
 This loads the worker script as an ES module, which lets you use the `import` keyword in the
 worker's script to import other modules.
 
-### Chrome 91: `chrome.action.getUserSettings()` {: #chromeactiongetusersettings-available }
+### Chrome 91: chrome.action.getUserSettings() {: #chromeactiongetusersettings-available }
 
 April 2, 2021
 
@@ -248,7 +248,7 @@ The new
 [`chrome.action.getUserSettings()`](/docs/extensions/reference/action/#method-getUserSettings)
 method allows extensions to determine if the user has pinned the extension to the main toolbar.
 
-### Chrome 90: `chrome.scripting.removeCSS()` {: #chromescriptingremovecss-available }
+### Chrome 90: chrome.scripting.removeCSS() {: #chromescriptingremovecss-available }
 
 February 10, 2021
 
@@ -265,7 +265,7 @@ February 24, 2021
 now supports returning promises. When a script evaluates to a promise, Chrome will wait for the
 promise to settle and return its resulting value.
 
-### Chrome 90: `chrome.scripting.executeScript()` results include frameId {: # chromescriptingexecutescript-results-include-frameid }
+### Chrome 90: chrome.scripting.executeScript() results include frameId {: # chromescriptingexecutescript-results-include-frameid }
 
 January 27, 2021
 
